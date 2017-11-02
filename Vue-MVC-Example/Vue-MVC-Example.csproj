@@ -27,6 +27,7 @@
     <NuGetPackageImportStamp>
     </NuGetPackageImportStamp>
     <TypeScriptToolsVersion>1.8</TypeScriptToolsVersion>
+    <Use64BitIISExpress />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -177,16 +178,16 @@
     <Content Include="Scripts\respond.matchmedia.addListener.js" />
     <Content Include="Scripts\respond.matchmedia.addListener.min.js" />
     <Content Include="Scripts\respond.min.js" />
-    <Content Include="Scripts\Views\Tests\Unit\Examples.EventBus.test.js" />
-    <Content Include="Scripts\Views\Examples\MVCModelBinding.js" />
-    <Content Include="Scripts\Views\Examples\Search.js" />
-    <Content Include="Scripts\Views\Examples\EventBus.js" />
-    <Content Include="Scripts\Views\Examples\jQueryWebpack.js" />
-    <Content Include="Scripts\Views\Examples\jQueryClassic.js" />
-    <Content Include="Scripts\Views\Home\Index.js" />
-    <Content Include="Scripts\Views\Home\Links.js" />
-    <Content Include="Scripts\Views\Examples\Index.js" />
-    <Content Include="Scripts\Views\Tests\Unit\Home.Index.test.js" />
+    <Content Include="Scripts\VueSrc\Tests\Unit\Examples.EventBus.test.js" />
+    <Content Include="Scripts\VueSrc\Examples\MVCModelBinding.js" />
+    <Content Include="Scripts\VueSrc\Examples\Search.js" />
+    <Content Include="Scripts\VueSrc\Examples\EventBus.js" />
+    <Content Include="Scripts\VueSrc\Examples\jQueryWebpack.js" />
+    <Content Include="Scripts\VueSrc\Examples\jQueryClassic.js" />
+    <Content Include="Scripts\VueSrc\Home\Index.js" />
+    <Content Include="Scripts\VueSrc\Home\Links.js" />
+    <Content Include="Scripts\VueSrc\Examples\Index.js" />
+    <Content Include="Scripts\VueSrc\Tests\Unit\Home.Index.test.js" />
     <Content Include="webpack.config.js" />
     <Content Include="Components\SiteMenu\SiteMenu.vue" />
     <Content Include=".babelrc" />
@@ -224,12 +225,12 @@
     <Content Include="Views\Home\Links.cshtml" />
     <Content Include="Views\Examples\MVCModelBinding.cshtml" />
     <Content Include="Views\Examples\EventBus.cshtml" />
-    <Content Include="Scripts\Views\Tests\Unit\.eslintrc" />
+    <Content Include="Scripts\VueSrc\Tests\Unit\.eslintrc" />
     <Content Include="Scripts\jquery-3.1.1.slim.min.map" />
     <Content Include="Scripts\jquery-3.1.1.min.map" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Scripts\Views\Tests\E2E\" />
+    <Folder Include="Scripts\VueSrc\Tests\E2E\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config">
